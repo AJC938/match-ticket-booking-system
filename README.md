@@ -86,6 +86,32 @@ Benchmarking + KPI collection
 Performance analysis
 ```
 
+## Application Screens
+
+The project includes a desktop ticket-booking interface for fans and a dedicated admin dashboard for live session monitoring and analytics.
+
+### Match Selection
+
+<p align="center">
+  <img src="assets/screenshots/match-selection.png" alt="Match selection screen" width="100%">
+</p>
+
+### Seat Selection
+
+<p align="center">
+  <img src="assets/screenshots/seat-selection-empty.png" alt="Seat selection screen" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/seat-selection-booking.png" alt="Seat selection with selected seats" width="100%">
+</p>
+
+### Admin Dashboard
+
+<p align="center">
+  <img src="assets/screenshots/admin-dashboard.png" alt="Admin dashboard" width="100%">
+</p>
+
 ## Performance Evaluation
 
 The benchmark layer compares:
@@ -129,7 +155,12 @@ match-ticket-booking-system/
 ├── README.md
 ├── .gitignore
 ├── assets/
-│   └── project-banner.svg
+│   ├── project-banner.svg
+│   └── screenshots/
+│       ├── match-selection.png
+│       ├── seat-selection-empty.png
+│       ├── seat-selection-booking.png
+│       └── admin-dashboard.png
 ├── src/
 │   ├── main.py
 │   └── modules/
